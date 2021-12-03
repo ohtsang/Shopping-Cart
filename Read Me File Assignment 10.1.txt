@@ -1,0 +1,25 @@
+Description of my class:
+The class that I made represents a simple shopping cart. The shopping cart is able to hold any drinks and different flavors of drinks. This cart is able to do simple things such as adding different drinks, removing drinks, changing out drinks, and checking your cart. 
+
+Description of each class and data variable:
+1. DrinksShoppingCart class - This class contains different methods that help build a shopping cart where you can edit whatever beverage you want into it including different flavors.
+2. self.drink data variable - This variable is used to hold any drinks that the user inputs.
+3. self.flavor data variable - This variable is used to any flavors accompanied with the drinks that the user wants.
+4. self.count data variable - This variable is used to keep track of how many drinks are put into the shopping cart.
+5. self.cart data variable - This variable is used to keep track of what you have within your cart.
+
+Description of each of the methods:
+1. __init__ - This method is used to set the data variables. This method also creates the base shopping cart with one drink and one flavor with the use of a loop and a dictionary.
+2. get_cart - This is a simple method used to get what you currently have in your cart. It then returns the cart to the user.
+3. get_drink - This method is similar to the get_cart method. However this time it only returns one drink instead of the entire cart.
+4. get_flavor - This method is like the get_drink method. However it returns the flavor instead of the specified drink.
+5. change_drink_and_flavor - This method is used to change any drink and flavor within your cart. This method takes in a user input of which drink you want to change and its corresponding flavor. It then changes the dictionary keys and values and returns it.
+6. add_drink_and_flavor - This method is used to add a new drink and flavor to your shopping cart. It takes in a user input and simply adds a new key and value to the existing dictoinary.
+7. remove_drink - This is a simple method to just remove any unwanted drink and flavor within your shopping cart. It uses the dictionary function del to get rid of the unwanted drink.
+
+Demo Program Documentation
+Description of the demo program:
+My demo program is a short and simple user based program. It asks you what drink and flavor you want to put into your shopping cart for a starter. It then gives you the option to do whatever you want with the shopping cart including adding new drinks, removing drinks, changing drinks, and your checking drinks.
+
+Instructions on how to run the demo program:
+A user can run my demo program within their terminal or powershell depending on their os. They just need to run the program and the code will do the rest and will guide you on what to do.
